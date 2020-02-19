@@ -23,11 +23,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>no.ssb.dapla</groupId>
-            <artifactId>dataset-api</artifactId>
-            <version>0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>io.helidon.grpc</groupId>
             <artifactId>io.grpc</artifactId>
             <exclusions>
