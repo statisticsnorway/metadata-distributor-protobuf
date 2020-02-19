@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "no.ssb.dapla.metadata.distributor.protobuf";
+
+service MetadataDistributorService {
+    rpc dataChanged (DataChangedRequest) returns (DataChangedResponse);
+}
+
+message DataChangedRequest {
+    string parentUri = 2;
+    string path = 4;
+    int64 version = 6; // time-based
+    string filename = 8;
+}
+
+message DataChangedResponse {
+    string txId = 2;
+}
