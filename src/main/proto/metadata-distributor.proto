@@ -10,12 +10,9 @@ service MetadataDistributorService {
 message DataChangedRequest {
     string projectId = 1;
     string topicName = 2;
-    string parentUri = 6;
-    string path = 7;
-    int64 version = 8; // time-based
-    string filename = 9;
+    string uri = 3;
 }
 
 message DataChangedResponse {
-    string txId = 2;
+    string messageId = 1;
 }
