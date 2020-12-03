@@ -16,6 +16,13 @@
         <relativePath/>
     </parent>
 
+    <scm>
+        <connection>scm:git:git://github.com/statisticsnorway/metadata-distributor-protobuf.git</connection>
+        <developerConnection>scm:git:git@github.com:statisticsnorway/metadata-distributor-protobuf.git</developerConnection>
+        <url>https://github.com/statisticsnorway/metadata-distributor-protobuf</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
