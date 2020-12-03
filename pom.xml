@@ -1,11 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>no.ssb.dapla</groupId>
     <artifactId>metadata-distributor-protobuf</artifactId>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.3</version>
     <packaging>multi-release-jar</packaging>
     <name>${project.artifactId}</name>
 
@@ -13,14 +11,14 @@
         <groupId>io.helidon.applications</groupId>
         <artifactId>helidon-se</artifactId>
         <version>1.4.7</version>
-        <relativePath/>
+        <relativePath />
     </parent>
 
     <scm>
         <connection>scm:git:git://github.com/statisticsnorway/metadata-distributor-protobuf.git</connection>
         <developerConnection>scm:git:git@github.com:statisticsnorway/metadata-distributor-protobuf.git</developerConnection>
         <url>https://github.com/statisticsnorway/metadata-distributor-protobuf</url>
-        <tag>HEAD</tag>
+        <tag>metadata-distributor-protobuf-0.3</tag>
     </scm>
 
     <properties>
